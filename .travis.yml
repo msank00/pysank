@@ -17,16 +17,18 @@ script: tox
 #.. add another empty line
 #.. add another empty line 2
 #.. add another empty line 3
+#.. add another empty line 4
 # Assuming you have installed the travis-ci CLI tool, after you
 # create the Github repo and add it to Travis, run the
 # following command to finish PyPI deployment setup:
 # $ travis encrypt --add deploy.password
+#   secure: PLEASE_REPLACE_ME
+
 deploy:
   provider: pypi
   distributions: sdist bdist_wheel
-  user: sankarshan7
-  password: $ekc7of91!
-    secure: PLEASE_REPLACE_ME
+  user: "sankarshan7"
+  password: "$ekc7of91!"
   on:
     tags: true
     repo: msank00/pysank
