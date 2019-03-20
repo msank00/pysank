@@ -21,7 +21,7 @@ deploy:
   provider: pypi
   distributions: sdist bdist_wheel
   user: sankarshan7
-  password:
+  password: $ekc7of91!
     secure: PLEASE_REPLACE_ME
   on:
     tags: true
