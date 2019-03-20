@@ -27,8 +27,8 @@ script: tox
 deploy:
   provider: pypi
   distributions: sdist bdist_wheel
-  user: "sankarshan7"
-  password: "$ekc7of91!"
+  user: sankarshan7
+  password: abir9289
   on:
     tags: true
     repo: msank00/pysank
