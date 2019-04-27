@@ -30,7 +30,7 @@ personal utility file for data science
 Features
 --------
 
-* TODO
+* Coming soon ...
 
 Credits
 -------
