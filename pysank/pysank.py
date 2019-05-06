@@ -43,7 +43,6 @@ def get_git_revision_short_hash():
         .strip()
     )
 
-
 def get_git_branch_name():
     """Get the current git branch name
     
