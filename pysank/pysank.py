@@ -62,6 +62,7 @@ def get_running_filename():
     Returns:
         [string] -- running python script name
     """
+    
     return os.path.basename(sys.argv[0])
 
 
