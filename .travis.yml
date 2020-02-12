@@ -31,4 +31,4 @@ deploy:
   on:
     tags: true
     repo: msank00/pysank
-    python: 3.6
+    python: 3.5
