@@ -7,7 +7,7 @@ import pytest
 
 from click.testing import CliRunner
 
-from pysank import pysank
+from pysank import smutil
 from pysank import cli
 
 
